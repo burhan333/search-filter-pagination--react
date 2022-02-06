@@ -1,0 +1,81 @@
+table
+{
+    text-align: center;
+
+    th
+    {
+        width: 150px;
+    }
+    
+    td
+    {
+        padding: 10px 0;
+    }
+}
+
+.movies
+{
+    padding: 30px;
+
+    input
+    {
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 400px;
+        height: 40px;
+        padding-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    &_box
+    {
+        display: flex;
+    }
+
+    &_filters
+    {
+        span
+        {
+            background: #ebebeb;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: center;
+            font-weight: 600;
+            display: block;
+            cursor: pointer;
+        }
+        
+        .active
+        {
+            background: black;
+            color: white;
+        }
+    }
+
+    &_pagination
+    {
+        margin-top: 10px;
+        padding-left: 110px;
+
+        span
+        {
+            background: #ebebeb;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: center;
+            font-weight: 600;
+            cursor: pointer;
+            width: 50px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        .active
+        {
+            background: black;
+            color: white;
+        }
+    }
+}
